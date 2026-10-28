@@ -1,0 +1,373 @@
+{
+  "fetchedAt": "2026-10-28T05:02:04.889Z",
+  "teams": [
+    {
+      "code": "GEN",
+      "name": "Gen.G Esports",
+      "region": "LCK",
+      "seed": 1
+    },
+    {
+      "code": "HLE",
+      "name": "Hanwha Life Esports",
+      "region": "LCK",
+      "seed": 2
+    },
+    {
+      "code": "T1",
+      "name": "T1",
+      "region": "LCK",
+      "seed": 3
+    },
+    {
+      "code": "DK",
+      "name": "Dplus KIA",
+      "region": "LCK",
+      "seed": 4
+    },
+    {
+      "code": "AL",
+      "name": "Anyone's Legend",
+      "region": "LPL",
+      "seed": 1
+    },
+    {
+      "code": "BLG",
+      "name": "BILIBILI GAMING",
+      "region": "LPL",
+      "seed": 2
+    },
+    {
+      "code": "TES",
+      "name": "TOP ESPORTS",
+      "region": "LPL",
+      "seed": 3
+    },
+    {
+      "code": "IG",
+      "name": "Invictus Gaming",
+      "region": "LPL",
+      "seed": 4
+    },
+    {
+      "code": "G2",
+      "name": "G2 Esports",
+      "region": "LEC",
+      "seed": 1
+    },
+    {
+      "code": "MKOI",
+      "name": "Movistar KOI",
+      "region": "LEC",
+      "seed": 2
+    },
+    {
+      "code": "KC",
+      "name": "Karmine Corp",
+      "region": "LEC",
+      "seed": 3
+    },
+    {
+      "code": "TLAW",
+      "name": "Team Liquid Alienware",
+      "region": "LCS",
+      "seed": 1
+    },
+    {
+      "code": "LYON",
+      "name": "LYON",
+      "region": "LCS",
+      "seed": 2
+    },
+    {
+      "code": "TSW",
+      "name": "Team Secret Whales",
+      "region": "LCP",
+      "seed": 1
+    },
+    {
+      "code": "CFO",
+      "name": "CTBC Flying Oyster",
+      "region": "LCP",
+      "seed": 2
+    },
+    {
+      "code": "LOS",
+      "name": "LOS",
+      "region": "CBLOL",
+      "seed": 1
+    }
+  ],
+  "matches": [
+    {
+      "id": "115660540726095005",
+      "startTime": "2026-10-23T17:00:00Z",
+      "teams": [
+        "IG",
+        "GEN"
+      ],
+      "winner": "GEN"
+    },
+    {
+      "id": "115660540726095013",
+      "startTime": "2026-10-23T18:00:00Z",
+      "teams": [
+        "TES",
+        "HLE"
+      ],
+      "winner": "HLE"
+    },
+    {
+      "id": "115660540726095019",
+      "startTime": "2026-10-23T19:00:00Z",
+      "teams": [
+        "MKOI",
+        "BLG"
+      ],
+      "winner": "MKOI"
+    },
+    {
+      "id": "115660540726095009",
+      "startTime": "2026-10-23T20:00:00Z",
+      "teams": [
+        "KC",
+        "AL"
+      ],
+      "winner": "KC"
+    },
+    {
+      "id": "115660540726095011",
+      "startTime": "2026-10-23T21:00:00Z",
+      "teams": [
+        "DK",
+        "G2"
+      ],
+      "winner": "DK"
+    },
+    {
+      "id": "115660540726095007",
+      "startTime": "2026-10-23T22:00:00Z",
+      "teams": [
+        "TLAW",
+        "CFO"
+      ],
+      "winner": "CFO"
+    },
+    {
+      "id": "115660540726095015",
+      "startTime": "2026-10-23T23:00:00Z",
+      "teams": [
+        "LOS",
+        "T1"
+      ],
+      "winner": "T1"
+    },
+    {
+      "id": "115660540726095017",
+      "startTime": "2026-10-24T00:00:00Z",
+      "teams": [
+        "LYON",
+        "TSW"
+      ],
+      "winner": "LYON"
+    },
+    {
+      "id": "115660540726095029",
+      "startTime": "2026-10-24T17:00:00Z",
+      "teams": [
+        "TES",
+        "AL"
+      ],
+      "winner": "TES"
+    },
+    {
+      "id": "115660540726095021",
+      "startTime": "2026-10-24T18:00:00Z",
+      "teams": [
+        "MKOI",
+        "CFO"
+      ],
+      "winner": "MKOI"
+    },
+    {
+      "id": "115660540726095031",
+      "startTime": "2026-10-24T19:00:00Z",
+      "teams": [
+        "LOS",
+        "G2"
+      ],
+      "winner": "G2"
+    },
+    {
+      "id": "115660540726095023",
+      "startTime": "2026-10-24T20:00:00Z",
+      "teams": [
+        "KC",
+        "LYON"
+      ],
+      "winner": "LYON"
+    },
+    {
+      "id": "115660540726095033",
+      "startTime": "2026-10-24T21:00:00Z",
+      "teams": [
+        "TSW",
+        "IG"
+      ],
+      "winner": "IG"
+    },
+    {
+      "id": "115660540726095025",
+      "startTime": "2026-10-24T22:00:00Z",
+      "teams": [
+        "HLE",
+        "GEN"
+      ],
+      "winner": "GEN"
+    },
+    {
+      "id": "115660540726095027",
+      "startTime": "2026-10-24T23:00:00Z",
+      "teams": [
+        "DK",
+        "T1"
+      ],
+      "winner": "DK"
+    },
+    {
+      "id": "115660540726095035",
+      "startTime": "2026-10-25T00:00:00Z",
+      "teams": [
+        "TLAW",
+        "BLG"
+      ],
+      "winner": "BLG"
+    },
+    {
+      "id": "115660540726095045",
+      "startTime": "2026-10-25T17:00:00Z",
+      "teams": [
+        "IG",
+        "HLE"
+      ],
+      "winner": "IG"
+    },
+    {
+      "id": "115660540726095047",
+      "startTime": "2026-10-25T18:00:00Z",
+      "teams": [
+        "TES",
+        "G2"
+      ],
+      "winner": "TES"
+    },
+    {
+      "id": "115660540726095037",
+      "startTime": "2026-10-25T19:00:00Z",
+      "teams": [
+        "MKOI",
+        "DK"
+      ],
+      "winner": "DK"
+    },
+    {
+      "id": "115660540726095041",
+      "startTime": "2026-10-25T22:00:00Z",
+      "teams": [
+        "LYON",
+        "GEN"
+      ],
+      "winner": "GEN"
+    },
+    {
+      "id": "115660540726095049",
+      "startTime": "2026-10-26T17:00:00Z",
+      "teams": [
+        "T1",
+        "CFO"
+      ],
+      "winner": "T1"
+    },
+    {
+      "id": "115660540726095051",
+      "startTime": "2026-10-26T18:00:00Z",
+      "teams": [
+        "BLG",
+        "KC"
+      ],
+      "winner": "BLG"
+    },
+    {
+      "id": "115660540726095053",
+      "startTime": "2026-10-26T19:00:00Z",
+      "teams": [
+        "TSW",
+        "LOS"
+      ],
+      "winner": "LOS"
+    },
+    {
+      "id": "115660540726095057",
+      "startTime": "2026-10-26T22:00:00Z",
+      "teams": [
+        "AL",
+        "TLAW"
+      ],
+      "winner": "TLAW"
+    },
+    {
+      "id": "115660540726095061",
+      "startTime": "2026-10-28T20:00:00Z",
+      "teams": [
+        "MKOI",
+        "T1"
+      ],
+      "winner": null
+    },
+    {
+      "id": "115660540726095065",
+      "startTime": "2026-10-28T23:00:00Z",
+      "teams": [
+        "LYON",
+        "IG"
+      ],
+      "winner": null
+    },
+    {
+      "id": "115660540726095073",
+      "startTime": "2026-10-29T20:00:00Z",
+      "teams": [
+        "CFO",
+        "KC"
+      ],
+      "winner": null
+    },
+    {
+      "id": "115660540726095069",
+      "startTime": "2026-10-29T23:00:00Z",
+      "teams": [
+        "BLG",
+        "TES"
+      ],
+      "winner": null
+    },
+    {
+      "id": "115660540726095077",
+      "startTime": "2026-10-30T20:00:00Z",
+      "teams": [
+        "TLAW",
+        "LOS"
+      ],
+      "winner": null
+    },
+    {
+      "id": "115660540726095081",
+      "startTime": "2026-10-30T23:00:00Z",
+      "teams": [
+        "G2",
+        "HLE"
+      ],
+      "winner": null
+    }
+  ]
+}

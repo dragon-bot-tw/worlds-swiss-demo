@@ -1,0 +1,278 @@
+:root {
+  color: #fff;
+  background: #071338;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; min-height: 100%; }
+
+body {
+  color: #fff;
+  font-family: "Noto Sans TC", "PingFang TC", "Segoe UI", sans-serif;
+  background-color: #071338;
+  background-image: linear-gradient(180deg, #08143d 0%, #071033 46%, #050c22 100%);
+}
+
+button { font: inherit; color: inherit; }
+
+.top { padding-top: 22px; }
+
+.wordmark {
+  height: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  color: #e7ebf3;
+  font-family: Impact, "Anton", sans-serif;
+  font-size: 104px;
+  letter-spacing: 0.06em;
+  line-height: 1;
+}
+
+.diamond { font-size: 58px; }
+
+.banner {
+  height: 70px;
+  margin: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  background-color: #1866dc;
+  background-image: linear-gradient(90deg, #154aca 0%, #1860d8 38%, #1c7eeb 68%, #1aa6ee 100%);
+  color: #fff;
+  font-size: 34px;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+}
+
+.banner-dash { letter-spacing: 0; }
+
+.meta-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 10px 32px 0;
+  color: #9aa6c2;
+  font-size: 13px;
+}
+
+.fetched, .trial-count, .swap-hint { margin: 0; }
+
+.bracket {
+  min-height: 0;
+  display: block;
+  padding: 14px 18px 8px;
+  overflow-x: auto;
+}
+
+.funnel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: max-content;
+  min-width: 100%;
+}
+
+.col {
+  width: 266px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+.group {
+  background: #0c1736;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.group.generated { border: 2px dashed #f5c04a; }
+
+.group-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 10px;
+  background: #08122c;
+  color: #f4f7fb;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.match {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 40px minmax(0, 1fr);
+  align-items: center;
+  min-height: 76px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.ghost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 76px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+  min-height: 76px;
+  padding: 8px 10px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+
+.side.right { align-items: flex-end; text-align: right; }
+.side.swap-selected { outline: 2px solid #f5c04a; outline-offset: -2px; }
+
+.seed {
+  font-size: 11px;
+  line-height: 1;
+  color: #9aa6c2;
+  white-space: nowrap;
+}
+
+.code {
+  font-family: Impact, "Anton", sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.vs {
+  width: 40px;
+  min-width: 40px;
+  max-width: 40px;
+  font-family: Impact, "Anton", sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+  color: #8b95ad;
+}
+
+.ghost .vs { width: auto; min-width: 0; max-width: none; }
+
+.is-official-win .code { color: #fff; }
+.is-official-loss { opacity: 0.42; }
+.is-trial-win .code { color: #f5c04a; }
+.is-trial-loss { opacity: 0.42; }
+
+.slot { background: #0c1736; }
+.slot.advance { color: #19b8f0; }
+.slot.elim { color: #e0566b; }
+
+.slot-label, .elim-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 12px;
+  font-family: Impact, "Anton", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+}
+
+.slot.advance .slot-label {
+  background: #19b8f0;
+  color: #fff;
+}
+
+.slot.elim .elim-label {
+  background: #08122c;
+  color: #e0566b;
+}
+
+.slot-teams {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 82px;
+  padding: 8px 8px;
+  color: #fff;
+  font-family: Impact, "Anton", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+}
+
+.slash { color: #8b95ad; font-size: 22px; }
+
+.unpaired {
+  margin: 0;
+  color: #9aa6c2;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.help {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  margin: 16px 28px 22px;
+  padding: 14px 16px;
+  border: 1px solid rgba(150, 176, 214, 0.28);
+  border-radius: 12px;
+  color: #d5deee;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.help p { margin: 0; }
+
+.help-actions { display: flex; gap: 8px; flex: 0 0 auto; }
+
+.help-actions button, .panel button {
+  border: 1px solid rgba(154, 176, 214, 0.45);
+  background: rgba(8, 18, 40, 0.8);
+  color: #fff;
+  min-height: 32px;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+.help-actions button:disabled { opacity: 0.4; cursor: default; }
+.help-actions button.active { border-color: #f5c04a; color: #f5c04a; }
+.swap-hint { color: #f5c04a; }
+
+.panel {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  width: 340px;
+  height: 100vh;
+  overflow: auto;
+  padding: 18px 16px 28px;
+  background: rgba(6, 14, 28, 0.96);
+  border-left: 1px solid rgba(25, 184, 240, 0.45);
+}
+
+.panel-head, .winner-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.panel h2 { margin: 0; font-family: Impact, "Anton", sans-serif; font-size: 36px; font-weight: 400; letter-spacing: 0.06em; }
+.panel .meta, .panel .distance, .panel .note { margin: 8px 0; line-height: 1.45; }
+.note { color: #f5c04a; }
+.history { list-style: none; margin: 8px 0; padding: 0; }
+.history li { padding: 6px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+.winner-row, .paths { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.paths { flex-direction: column; }
+.path-btn.active, .pick-btn.selected { border-color: #f5c04a; color: #f5c04a; }
+.advanced { color: #19b8f0; }
+.eliminated { color: #e0566b; }
+
+body.panel-open .bracket { padding-right: 360px; }
+body.panel-open .help { margin-right: 360px; }

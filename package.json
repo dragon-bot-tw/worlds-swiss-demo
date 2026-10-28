@@ -1,0 +1,10 @@
+{
+  "name": "worlds-swiss-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "fetch-swiss": "node scripts/fetch-swiss.js",
+    "test": "node --test"
+  }
+}

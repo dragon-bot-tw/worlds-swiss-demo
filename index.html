@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>世界賽瑞士輪晉級試算</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="top">
+      <div class="wordmark" id="wordmark">
+        <span class="diamond">◆</span>
+        <span class="brand">WORLDS 2026</span>
+      </div>
+      <div class="banner" id="banner">
+        <span>SWISS STAGE</span><span class="banner-dash">-</span><span id="banner-round">ROUND 4</span>
+      </div>
+      <div class="meta-row">
+        <p id="fetched" class="fetched"></p>
+        <p id="trial-count" class="trial-count"></p>
+      </div>
+    </header>
+    <main id="bracket" class="bracket"></main>
+    <footer class="help">
+      <div class="help-copy">
+        <p>點任一隊伍，查看還要贏幾場、有哪些走向。</p>
+        <p>點「走向」可直接套用到對戰圖；也可以直接點未打比賽的隊伍判勝，已確定的比賽不能改。</p>
+        <p>第 5 輪對手為模擬抽籤，可用「換」選兩隊互換對手。</p>
+        <p id="swap-hint" class="swap-hint" hidden>點選同一戰績池的兩隊交換對手</p>
+      </div>
+      <div class="help-actions">
+        <button id="swap" type="button" disabled>換</button>
+        <button id="clear" type="button">清除試算</button>
+      </div>
+    </footer>
+    <aside id="panel" class="panel" hidden></aside>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
